@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default () => (
-  <div>
+  <Layout>
     <Link to="/about/">About</Link>
     <Link to="/contact/">Contact</Link>
     <Header headerText="LUU CA MAY" />
@@ -13,5 +14,5 @@ export default () => (
       What do I like to do? Lots of course but definitely enjoy building
       websites.
     </p>
-  </div>
+  </Layout>
 )
