@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
-
+import Footer from "../components/footer"
 export default () => (
   <Layout>
     <Header headerText="#imilladev" />
@@ -10,5 +10,6 @@ export default () => (
       What do I like to do? Lots of course but definitely enjoy building
       websites.
     </p>
+  <Footer></Footer>
   </Layout>
 )
